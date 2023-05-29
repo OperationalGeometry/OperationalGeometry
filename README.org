@@ -9,10 +9,11 @@ One of my main flaws is that I am interested in far too many topics than I can p
 ** Sandia National Laboratories
 *** W80-4/B61-12 JTA Systems Engineer
 - Developed automation code with Kubernetes to orchestrate deployment of Docker-containerized proprietary applications for distributed telemetry data collection and processing on High Performance Computing pipelines
-- 
+
 *** Radar ISR Software Development Engineer
-- Designed and implemented Matlab packages augmenting the production and delivery of Synthetic Aperture Radar (SAR) processing pipelines
-- 
+- Developed optimized Matlab data processing Matlab package improving the production and delivery of Synthetic Aperture Radar (SAR) products to government customers
+- Designed and implemented robust UI utilizing Google Earth to model radar geometries of interest, currently being utilized as both a visual debugger and to showcase mission examples to customers and management
+- Generalized and modularized 3D visualization code to accomodate multimode radar data, enhancing organizations Mod/Sim capabilities
 ** Ascendion
 *** Machine Learning Research Intern
 
