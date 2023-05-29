@@ -1,6 +1,7 @@
 :properties:
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-bigblow.setup
 #+OPTIONS: num:nil
+#+EXPORT_FILE_NAME: index.html
 :end:
 #+title: Operational Geometry
 * Objectives

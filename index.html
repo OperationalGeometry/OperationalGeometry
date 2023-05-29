@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2023-05-29 Mon 15:33 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Operational Geometry</title>
+<meta name="generator" content="Org mode" />
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/bigblow_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/bigblow_theme/css/bigblow.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/bigblow_theme/css/hideshow.css"/>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/bigblow_theme/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/bigblow_theme/js/jquery-ui-1.10.2.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/bigblow_theme/js/jquery.localscroll-min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/bigblow_theme/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/bigblow_theme/js/jquery.zclip.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/bigblow_theme/js/bigblow.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/bigblow_theme/js/hideshow.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Operational Geometry</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org11155b7">Objectives</a></li>
+<li><a href="#org7d9faa1">Work Experience</a>
+<ul>
+<li><a href="#org7c1d1bc">Sandia National Laboratories</a>
+<ul>
+<li><a href="#org823cc24">W80-4/B61-12 JTA Systems Engineer</a></li>
+<li><a href="#orgc66b909">Radar ISR Software Development Engineer</a></li>
+</ul>
+</li>
+<li><a href="#orgdcc9a78">Ascendion</a>
+<ul>
+<li><a href="#org44b981b">Machine Learning Research Intern</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org63e7b76">Education</a>
+<ul>
+<li><a href="#org173ea04">UC Berkeley Coursework</a>
+<ul>
+<li><a href="#org8d16b27">Machine Learning</a></li>
+<li><a href="#orge45f723">Data Structures and Algorithms</a></li>
+<li><a href="#org5c087e2">Cybersecurity</a></li>
+<li><a href="#org47d3152">Probability Theory and Stochastic Processes</a></li>
+<li><a href="#orgb74303d">Linear Algebra</a></li>
+<li><a href="#org544ab70">Nanorobotics</a></li>
+</ul>
+</li>
+<li><a href="#org152f4c4">Self Study</a>
+<ul>
+<li><a href="#orgc8e69d8">Differential Equations</a></li>
+<li><a href="#org5decd46">Differential Geometry</a></li>
+<li><a href="#org3a207f3">Computational Compressible Fluid Dynamics</a></li>
+<li><a href="#orgfd0b709">Geometric Control Theory</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org289d6ee">Interests</a></li>
+<li><a href="#orgc154acb"><span class="todo TODO">TODO</span> Projects</a></li>
+<li><a href="#org3298c51">Skills</a>
+<ul>
+<li><a href="#org6d1c135">Programming Languages</a></li>
+<li><a href="#org6531e9d">Frameworks/Architectures</a></li>
+<li><a href="#org7e30373">Misc</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org11155b7" class="outline-2">
+<h2 id="org11155b7">Objectives</h2>
+<div class="outline-text-2" id="text-org11155b7">
+<p>
+One of my main flaws is that I am interested in far too many topics than I can possibly explore in my lifetime. This website is my attempt to maintain a history of what I have learned, showcase the projects that I have implemented, and outline my goals for the future. I hope that any visitor to this website will understand how I can help you based on the unique set of experiences and skills I have accumulated.
+</p>
+</div>
+</div>
+<div id="outline-container-org7d9faa1" class="outline-2">
+<h2 id="org7d9faa1">Work Experience</h2>
+<div class="outline-text-2" id="text-org7d9faa1">
+</div>
+<div id="outline-container-org7c1d1bc" class="outline-3">
+<h3 id="org7c1d1bc">Sandia National Laboratories</h3>
+<div class="outline-text-3" id="text-org7c1d1bc">
+</div>
+<div id="outline-container-org823cc24" class="outline-4">
+<h4 id="org823cc24">W80-4/B61-12 JTA Systems Engineer</h4>
+<div class="outline-text-4" id="text-org823cc24">
+<ul class="org-ul">
+<li>Developed automation code with Kubernetes to orchestrate deployment of Docker-containerized proprietary applications for distributed telemetry data collection and processing on High Performance Computing pipelines</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgc66b909" class="outline-4">
+<h4 id="orgc66b909">Radar ISR Software Development Engineer</h4>
+<div class="outline-text-4" id="text-orgc66b909">
+<ul class="org-ul">
+<li>Developed optimized Matlab data processing Matlab package improving the production and delivery of Synthetic Aperture Radar (SAR) products to government customers</li>
+<li>Designed and implemented robust UI utilizing Google Earth to model radar geometries of interest, currently being utilized as both a visual debugger and to showcase mission examples to customers and management</li>
+<li>Generalized and modularized 3D visualization code to accomodate multimode radar data, enhancing organizations Mod/Sim capabilities</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdcc9a78" class="outline-3">
+<h3 id="orgdcc9a78">Ascendion</h3>
+<div class="outline-text-3" id="text-orgdcc9a78">
+</div>
+<div id="outline-container-org44b981b" class="outline-4">
+<h4 id="org44b981b">Machine Learning Research Intern</h4>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org63e7b76" class="outline-2">
+<h2 id="org63e7b76">Education</h2>
+<div class="outline-text-2" id="text-org63e7b76">
+</div>
+<div id="outline-container-org173ea04" class="outline-3">
+<h3 id="org173ea04">UC Berkeley Coursework</h3>
+<div class="outline-text-3" id="text-org173ea04">
+</div>
+<div id="outline-container-org8d16b27" class="outline-4">
+<h4 id="org8d16b27">Machine Learning</h4>
+</div>
+<div id="outline-container-orge45f723" class="outline-4">
+<h4 id="orge45f723">Data Structures and Algorithms</h4>
+<div class="outline-text-4" id="text-orge45f723">
+</div>
+<ul class="org-ul">
+<li><a id="orga0b12e2"></a>Efficient Algorithms and Intractable Problems<br /></li>
+<li><a id="org884078b"></a>Geometric Algorithms<br />
+<div class="outline-text-5" id="text-org884078b">
+<p>
+see: <a href="https://ocw.mit.edu/courses/18-409-topics-in-theoretical-computer-science-an-algorithmists-toolkit-fall-2009/pages/syllabus/">https://ocw.mit.edu/courses/18-409-topics-in-theoretical-computer-science-an-algorithmists-toolkit-fall-2009/pages/syllabus/</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-org5c087e2" class="outline-4">
+<h4 id="org5c087e2">Cybersecurity</h4>
+</div>
+<div id="outline-container-org47d3152" class="outline-4">
+<h4 id="org47d3152">Probability Theory and Stochastic Processes</h4>
+</div>
+<div id="outline-container-orgb74303d" class="outline-4">
+<h4 id="orgb74303d">Linear Algebra</h4>
+</div>
+<div id="outline-container-org544ab70" class="outline-4">
+<h4 id="org544ab70">Nanorobotics</h4>
+</div>
+</div>
+<div id="outline-container-org152f4c4" class="outline-3">
+<h3 id="org152f4c4">Self Study</h3>
+<div class="outline-text-3" id="text-org152f4c4">
+</div>
+<div id="outline-container-orgc8e69d8" class="outline-4">
+<h4 id="orgc8e69d8">Differential Equations</h4>
+</div>
+<div id="outline-container-org5decd46" class="outline-4">
+<h4 id="org5decd46">Differential Geometry</h4>
+</div>
+<div id="outline-container-org3a207f3" class="outline-4">
+<h4 id="org3a207f3">Computational Compressible Fluid Dynamics</h4>
+</div>
+<div id="outline-container-orgfd0b709" class="outline-4">
+<h4 id="orgfd0b709">Geometric Control Theory</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org289d6ee" class="outline-2">
+<h2 id="org289d6ee">Interests</h2>
+<div class="outline-text-2" id="text-org289d6ee">
+<ul class="org-ul">
+<li>Quantitative Finance</li>
+<li>Machine Learning/AI</li>
+<li>Nuclear &amp; Hypersonic System</li>
+<li>Human Augmentation</li>
+<li>C4ISR</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgc154acb" class="outline-2">
+<h2 id="orgc154acb"><span class="todo TODO">TODO</span> Projects</h2>
+</div>
+
+<div id="outline-container-org3298c51" class="outline-2">
+<h2 id="org3298c51">Skills</h2>
+<div class="outline-text-2" id="text-org3298c51">
+</div>
+<div id="outline-container-org6d1c135" class="outline-3">
+<h3 id="org6d1c135">Programming Languages</h3>
+<div class="outline-text-3" id="text-org6d1c135">
+<ul class="org-ul">
+<li>Matlab</li>
+<li>Python</li>
+<li>Java</li>
+<li>C</li>
+<li>C++ (in progress)</li>
+<li>Go (in progress)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6531e9d" class="outline-3">
+<h3 id="org6531e9d">Frameworks/Architectures</h3>
+<div class="outline-text-3" id="text-org6531e9d">
+<ul class="org-ul">
+<li>Git &amp; CI/CD</li>
+<li>Docker</li>
+<li>Kubernetes</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7e30373" class="outline-3">
+<h3 id="org7e30373">Misc</h3>
+<div class="outline-text-3" id="text-org7e30373">
+<ul class="org-ul">
+<li>Agile, Scrum, Kanban</li>
+<li>RTL-SDR hardware and operation (SIGINT)</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2023-05-29 Mon 15:33</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
